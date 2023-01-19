@@ -515,6 +515,10 @@ a {
     bottom: 32px;
 }
 
+.page-4 {
+    margin-bottom: 191px;
+}
+
 .page-4__box {
     margin-bottom: 80px;
     display: flex;
