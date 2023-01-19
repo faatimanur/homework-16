@@ -584,3 +584,31 @@ a {
     height: 539px;
 }
 
+.page-4__cards {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+.page-4__cards .card img {
+    margin-bottom: 32px;
+}
+
+.page-4__cards .card h4 {
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #1F2937;
+    margin-bottom: 24px;
+}
+
+.page-4__cards .card p {
+    font-family: var(--DMSans);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B5563;
+}
