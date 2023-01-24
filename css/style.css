@@ -1562,9 +1562,12 @@ a {
         line-height: 14px;
         margin-left: 0;
     }
+    .box-container-3 {
+        height: 250px;
+    }
     .box-container-4 {
         width: 447px;
-        height: 390px;
+        height: 350px;
         background: #00353B;
         position: relative;
     }
@@ -1572,8 +1575,9 @@ a {
         width: 400px;
         border-radius: 24px;
         position: absolute;
-        top: -390px;
+        top: -260px;
         padding: 0;
+        height: 480px;
     }
     .box-container-4__title {
         text-align: center;
@@ -1601,15 +1605,16 @@ a {
     }
     .box-container-4__cards {
         display: flex;
-        gap: 32px;
+        gap: 22px;
         overflow-x: scroll;
+        padding: 10px;
     }
     .box-container-4__card {
         background: #FFFFFF;
         border-radius: 16px;
-        padding: 32px;
-        width: 250px;
-        height: 300px;
+        padding: 22px;
+        width: 230px;
+        height: 250px;
         margin-bottom: 5px;
     }
     .box-container-4__card .paragraph {
@@ -1617,6 +1622,22 @@ a {
         font-size: 10px;
         line-height: 17px;
         width: 200px;
-        margin-top: 33px;
+        margin-top: 23px;
+    }
+    .box-container-4__user-name h5 {
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .box-container-4__user-name p {
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .box-container-4__user {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-top: 45px;
     }
 }
